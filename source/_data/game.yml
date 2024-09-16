@@ -1,0 +1,16 @@
+- class_name: 紧密相连
+  class_desc: 这里是站长自己的网站
+  link_list: 
+    - name: 黑洞大作战
+      link: https://hole-io.com/
+      descr: 操控黑洞吞噬一切
+    - name: flappybird
+      link: https://flappybird.io/
+      descr: 又菜又爱玩
+    - name: 在线cs
+      link: https://play-cs.com/zh/servers
+      avatar: 
+      descr: 喜欢枪战的可以试试   
+    - name: 你画我猜
+      link: https://enazo.cn/
+      descr: 经典你画我猜

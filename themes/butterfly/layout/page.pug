@@ -1,0 +1,34 @@
+extends includes/layout.pug
+
+block content
+  #page
+    if top_img === false
+      h1.page-title= page.title
+
+    case page.type
+      when 'tags'
+        include includes/page/tags.pug
+      when 'link'
+        include includes/page/flink.pug
+      when 'categories'
+        include includes/page/categories.pug
+      when 'echarts'
+        include includes/page/echarts.pug
+      when 'project'
+        include includes/page/project.pug
+      when 'animation'
+        include includes/page/animation.pug
+      when 'movie'
+        include includes/page/movie.pug
+      when 'game'
+        include includes/page/game.pug
+      default
+        include includes/page/default-page.pug
+
+    if page.comments !== false && theme.comments && theme.comments.use
+      - var commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
+      
+      
+      
+      

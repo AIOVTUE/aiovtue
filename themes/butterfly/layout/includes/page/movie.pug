@@ -1,0 +1,19 @@
+.flink#article-container
+    if site.data.movie
+        each i in site.data.movie
+            if i.class_name
+                h2!= i.class_name
+            if i.class_desc
+                .flink-desc!=i.class_desc
+            .flink-list
+                each item in i.link_list
+                    .flink-list-item
+                        a(href=url_for(item.link)  title=item.name target="_blank")
+                            - var urlNoProtocol = item.link.replace(/^https?\:\/\//i, "")
+                            - var imgUrl = "https://api.iowen.cn/favicon/" + urlNoProtocol + ".png"
+                            img.flink-avatar.entered.loaded(src=url_for(imgUrl) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=item.name)
+                            .img-alt.is-center= item.name
+                            .flink-item-info
+                                span.flink-item-name= item.name
+                                span.flink-item-desc(title=item.descr)= item.descr
+    != page.content

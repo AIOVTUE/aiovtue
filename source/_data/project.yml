@@ -1,0 +1,10 @@
+- class_name: 人生目标
+  project_list:
+    - content: 我要去西藏！
+      state: false
+    - content: 我想成为一颗耀眼的群星！
+      state: false
+    - content: 快乐开心每一天！
+      state: false
+    - content: 好好活着！
+      state: false

@@ -1,0 +1,32 @@
+- class_name: 动漫专区
+  class_desc: 看动漫不错
+  link_list: 
+    - name: 皮皮虾动漫
+      link: https://ppxdm.com/
+      avatar: 
+      descr: 
+      siteshot: 
+    - name: MX动漫
+      link: https://www.mxdmp.com/
+      avatar: 
+      descr: 
+      siteshot:  
+    - name: 动漫巴士
+      link: https://dm84.tv/
+      avatar: 
+      descr: 
+      siteshot:    
+- class_name: 影视站
+  class_desc: 适合追剧电影
+  link_list: 
+    - name: 胖虎影视
+      link: https://panghuys.com/
+      avatar: 
+      descr: 
+      siteshot: 
+    - name: 鸭耐飞
+      link: https://www.yanaifei.net/
+      avatar: 
+      descr: 
+      siteshot: 
+

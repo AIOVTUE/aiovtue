@@ -1,0 +1,18 @@
+- class_name: 无聊小站
+  class_desc: 有趣的小网站，适合摸鱼
+  link_list: 
+    - name: kiomet
+      link: https://kiomet.com/
+      avatar: 
+      descr: 一个全球在线，发育类型游戏
+      siteshot: 
+    - name: MyFreeMP3
+      link: https://tools.liumingye.cn/music/?page=searchPage#/
+      avatar: 
+      descr: 听音乐很不错
+      siteshot:  
+    - name: 水母
+      link: https://jellyfish.heheda.top/
+      avatar: 
+      descr: 一只水母
+      siteshot: 

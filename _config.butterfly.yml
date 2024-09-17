@@ -706,7 +706,7 @@ aside:
       link: https://bk.20030327.xyz
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://20030327.xyz" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">20030327.xyz</font></a>&nbsp;<br>--- 备用域名 ---<br><a href="https://aiovtue.us.kg" title="此线路部署于vercel" class="anno_content"><font color="#5ea6e5">aiovtue.us.kg</font></a></b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://20030327.xyz" title="此线路部署于Netlify" class="anno_content"><font color="#5ea6e5">20030327.xyz</font></a><br><a href="https://a.aiovt.us.kg" title="此线路部署于cloudflare page" class="anno_content"><font color="#5ea6e5">a.aiovt.us.kg</font></a>&nbsp;<br>--- 备用域名 ---<br><a href="https://aiovtue.us.kg" title="此线路部署于vercel" class="anno_content"><font color="#5ea6e5">aiovtue.us.kg</font></a><br><a href="https://aiovtue.onrender.com" title="此线路部署于render" class="anno_content"><font color="#5ea6e5">aiovtue.onrender.com</font></a><br><a href="https://aiovtue.zeabur.app" title="此线路部署于zeabur" class="anno_content"><font color="#5ea6e5">aiovtue.zeabur.app</font></a></b></center>
   card_recent_post:
     enable: false
     limit: 3 # if set 0 will show all
